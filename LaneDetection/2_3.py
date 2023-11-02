@@ -1,6 +1,6 @@
 ## Line Detection Tutorials"
 
-from util import * 
+from ..util import * 
 
 if __name__ == "__main__":
     input_type = input()
@@ -33,4 +33,3 @@ if __name__ == "__main__":
         cap.release()
         cv2.destroyAllWindows()
 
-        
